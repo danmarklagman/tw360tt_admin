@@ -3,7 +3,7 @@
  * Custom Ajax Submit Script
  * 06-02-2016
  */
-$.fn.customAdd = function(targetDiv) {
+$.fn.AddData = function(targetDiv) {
     $(this).ajaxForm({
         target: targetDiv,
         beforeSubmit: function() {
